@@ -20,4 +20,4 @@ jobs:
         aws-region: us-east-1
 
     - name: Deploy to S3
-      run: aws s3 sync . s3://my-auto-web-bucket-123456789012 --delete --exclude ".github/*"
+      run: aws s3 sync . s3://my-auto-web-bucket-888163088383 --delete --exclude ".github/*"
